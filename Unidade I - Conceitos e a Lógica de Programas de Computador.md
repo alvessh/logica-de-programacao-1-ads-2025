@@ -17,6 +17,12 @@ A programação é essencial na computação porque permite:
 - **Resolver problemas complexos**: A programação possibilita a análise e a resolução de problemas lógicos e matemáticos.
 - **Melhorar a eficiência**: Um código bem estruturado pode otimizar processos, economizando tempo e recursos.
 
+### Exemplos de Aplicação da Programação
+
+- **Aplicações desktop**: Microsoft Word, Photoshop, jogos para computador.
+- **Aplicações web**: Sites, redes sociais, sistemas de e-commerce.
+- **Aplicações mobile**: Aplicativos bancários, redes sociais, jogos para smartphones.
+- **Sistemas embarcados**: Software em automóveis, eletrodomésticos inteligentes, sensores de IoT.
 
 ## Tipos de Programação
 
@@ -28,6 +34,22 @@ A programação pode ser classificada em diferentes tipos, dependendo da área d
 - **Embarcado**: Programação para dispositivos específicos, como microcontroladores e sistemas industriais.
 
 ## Variáveis na Programação e na Computação
+
+### O que são Variáveis?
+
+Na programação, uma variável é um espaço na memória do computador reservado para armazenar dados.
+
+Imagine uma variável como uma caixa onde podemos guardar um valor e utilizá-lo posteriormente.
+
+### Tipos de Variáveis
+
+### Dependendo da linguagem de programação, podemos ter diferentes tipos de variáveis, tais como:
+
+- **Inteiros (int)**: Números inteiros (1, 2, -5, 1000).
+- **Reais ou Ponto Flutuante (float, double)**: Números decimais (3.14, -2.5, 0.01).
+- **Caracteres (char)**: Letras e símbolos (‘A’, ‘b’, ‘@’).
+- **Cadeia de caracteres (string)**: Conjunto de caracteres ("Olá, mundo!").
+- **Booleanos (bool)**: Representa valores verdadeiros ou falsos (true, false).
 
 As variáveis são fundamentais na programação, pois armazenam valores que podem ser manipulados pelos programas. Em diferentes linguagens, as variáveis podem ser declaradas e utilizadas de diferentes formas.
 
