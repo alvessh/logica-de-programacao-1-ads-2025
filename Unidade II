@@ -1,0 +1,126 @@
+# Unidade II - Lógica de Programação utilizando Linguagem de Alto Nível (JAVA)
+
+## 1. Introdução à Linguagem de Programação Java
+
+Java é uma linguagem de programação orientada a objetos amplamente utilizada no desenvolvimento de aplicações desktop, web e mobile. Criada pela Sun Microsystems (atualmente pertencente à Oracle), a linguagem se destaca por sua portabilidade, segurança e robustez.
+
+**Principais Características do Java:**
+- Linguagem compilada e interpretada (Java compila para bytecode e executa na JVM - Java Virtual Machine).
+- Orientada a objetos.
+- Portabilidade (escreva uma vez, execute em qualquer lugar - WORA).
+- Gerenciamento automático de memória (Garbage Collector).
+- Forte comunidade e suporte.
+
+**Exemplo de um programa simples em Java:**
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+## 2. Algoritmos
+
+Um **algoritmo** é um conjunto de instruções sequenciais para resolver um problema ou realizar uma tarefa. No contexto da programação, os algoritmos são traduzidos em código para serem executados por um computador.
+
+### Fases do Desenvolvimento de um Algoritmo:
+1. **Compreensão do problema:** Definir claramente a entrada e a saída.
+2. **Criação do algoritmo:** Desenvolver um conjunto de passos lógicos para solucionar o problema.
+3. **Conversão para linguagem de programação:** Implementar o algoritmo em uma linguagem como Java.
+4. **Testes e depuração:** Executar o programa para validar os resultados.
+
+Exemplo de algoritmo em pseudocódigo:
+```
+Inicio
+    Escreva ("Digite um número: ")
+    Leia (numero)
+    Se numero > 0 então
+        Escreva ("O número é positivo")
+    Senao se numero < 0 então
+        Escreva ("O número é negativo")
+    Senao
+        Escreva ("O número é zero")
+Fim
+```
+
+Implementação em Java:
+```java
+import java.util.Scanner;
+
+public class NumeroPositivoNegativo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite um número: ");
+        int numero = scanner.nextInt();
+        
+        if (numero > 0) {
+            System.out.println("O número é positivo");
+        } else if (numero < 0) {
+            System.out.println("O número é negativo");
+        } else {
+            System.out.println("O número é zero");
+        }
+        scanner.close();
+    }
+}
+```
+
+## 3. Operadores Relacionais
+Os **operadores relacionais** são usados para comparar dois valores e retornam um valor booleano (`true` ou `false`).
+
+| Operador | Significado |
+|----------|------------|
+| `==`     | Igualdade |
+| `!=`     | Diferente |
+| `>`      | Maior que |
+| `<`      | Menor que |
+| `>=`     | Maior ou igual a |
+| `<=`     | Menor ou igual a |
+
+**Exemplo em Java:**
+```java
+public class OperadoresRelacionais {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        System.out.println(a == b); // false
+        System.out.println(a != b); // true
+        System.out.println(a > b);  // false
+        System.out.println(a < b);  // true
+        System.out.println(a >= b); // false
+        System.out.println(a <= b); // true
+    }
+}
+```
+
+## 4. Operadores Lógicos
+Os **operadores lógicos** são usados para combinar expressões booleanas.
+
+| Operador | Nome         | Exemplo         | Resultado |
+|----------|-------------|-----------------|-----------|
+| `&&`     | E (AND)     | `true && false` | false     |
+| `||`     | OU (OR)     | `true || false` | true      |
+| `!`      | NEGAÇÃO (NOT) | `!true`         | false     |
+
+**Exemplo em Java:**
+```java
+public class OperadoresLogicos {
+    public static void main(String[] args) {
+        boolean x = true;
+        boolean y = false;
+        
+        System.out.println(x && y); // false
+        System.out.println(x || y); // true
+        System.out.println(!x);     // false
+        System.out.println(!y);     // true
+    }
+}
+```
+
+## 5. Exercícios Práticos
+1. Escreva um programa em Java que receba dois números e exiba qual é o maior.
+2. Implemente um programa que verifique se um usuário pode acessar um sistema. O login é permitido se o nome for "admin" **E** a senha for "1234".
+3. Escreva um programa que receba a idade de uma pessoa e verifique se ela pode dirigir (idade maior ou igual a 18 anos).
+
+Essa aula fornece uma base para entender e implementar conceitos essenciais da lógica de programação em Java. Pratique os conceitos e resolva os exercícios para reforçar o aprendizado!
