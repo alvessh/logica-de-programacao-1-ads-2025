@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercícios de Java com IF/ELSE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .exercise {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+        }
+        h2 {
+            color: #2980b9;
+        }
+        h3 {
+            margin-top: 15px;
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Java com IF/ELSE</h1>
+
+    <div class="exercise">
+        <h2>Exercício 1: Calculadora de Descontos por Categoria</h2>
+        <h3>Descrição</h3>
+        <p>Simule o cálculo do valor final de um produto com base na categoria do cliente.</p>
+        <h3>Entradas</h3>
+        <ul><li>Nome do cliente</li><li>Categoria do cliente: 'ouro', 'prata', 'bronze' ou 'normal'</li><li>Valor da compra</li></ul>
+        <h3>Regras</h3>
+        <ul><li>Ouro: 20%</li><li>Prata: 15%</li><li>Bronze: 10%</li><li>Normal: Sem desconto</li></ul>
+        <h3>Saída esperada</h3>
+        <ul><li>Nome do cliente</li><li>Categoria</li><li>Valor original</li><li>Valor com desconto</li></ul>
+    </div>
+    
+    <div class="exercise">
+        <h2>Exercício 2: Sistema de Verificação de Acesso por Idade e Autorização</h2>
+        <h3>Descrição</h3>
+        <p>Determine se uma pessoa pode acessar uma sala restrita.</p>
+        <h3>Entradas</h3>
+        <ul><li>Idade da pessoa</li><li>Se está acompanhada (sim/não)</li><li>Se tem autorização especial (sim/não)</li></ul>
+        <h3>Regras</h3>
+        <ul><li>18 anos ou mais: acesso permitido</li><li>16-17 anos: pode acessar se acompanhado ou autorizado</li><li>Menor de 16: acesso negado</li></ul>
+        <h3>Saída esperada</h3>
+        <ul><li>Mensagem de permissão ou bloqueio</li></ul>
+    </div>
+    
+    <div class="exercise">
+        <h2>Exercício 3: Sistema de Classificação Escolar</h2>
+        <h3>Descrição</h3>
+        <p>Receba duas notas e informe a média e situação do aluno.</p>
+        <h3>Entradas</h3>
+        <ul><li>Nome do aluno</li><li>Nota 1</li><li>Nota 2</li></ul>
+        <h3>Regras</h3>
+        <ul><li>Média >= 7: Aprovado</li><li>Média entre 5 e 7: Em recuperação</li><li>Média < 5: Reprovado</li></ul>
+        <h3>Saída esperada</h3>
+        <ul><li>Nome do aluno</li><li>Média</li><li>Situação final</li></ul>
+    </div>
+    
+    <div class="exercise">
+        <h2>Exercício 4: Simulador de Caixa Eletrônico</h2>
+        <h3>Descrição</h3>
+        <p>Informe quantas notas serão entregues para um valor de saque (sem usar laços).</p>
+        <h3>Entradas</h3>
+        <ul><li>Valor inteiro entre 10 e 1000</li></ul>
+        <h3>Regras</h3>
+        <ul><li>Notas disponíveis: 100, 50, 20, 10</li><li>Usar apenas subtrações e if/else</li></ul>
+        <h3>Saída esperada</h3>
+        <ul><li>Quantidade de cada nota</li></ul>
+    </div>
+    
+    <div class="exercise">
+        <h2>Exercício 5: Sistema de Aprovação de Empréstimo</h2>
+        <h3>Descrição</h3>
+        <p>Avalie se uma pessoa pode receber um empréstimo.</p>
+        <h3>Entradas</h3>
+        <ul><li>Salário mensal</li><li>Valor do empréstimo</li><li>Número de parcelas (1 a 12)</li></ul>
+        <h3>Regras</h3>
+        <ul><li>Parcela <= 30% do salário</li><li>Parcelas entre 1 e 12</li><li>Caso contrário: empréstimo negado</li></ul>
+        <h3>Saída esperada</h3>
+        <ul><li>Valor da parcela</li><li>Aprovação ou recusa do empréstimo</li></ul>
+    </div>
+    
+    <div class="exercise">
+        <h2>Exercício 6: Calculadora de IMC</h2>
+        <h3>Descrição</h3>
+        <p>Calcule o IMC de uma pessoa e informe a classificação.</p>
+        <h3>Entradas</h3>
+        <ul><li>Nome</li><li>Peso (kg)</li><li>Altura (m)</li></ul>
+        <h3>Regras</h3>
+        <ul><li>IMC = peso / (altura * altura)</li><li>Abaixo de 18.5: Abaixo do peso</li><li>18.5 a 24.9: Normal</li><li>25.0 a 29.9: Sobrepeso</li><li>30.0 ou mais: Obesidade</li></ul>
+        <h3>Saída esperada</h3>
+        <ul><li>Nome</li><li>IMC calculado</li><li>Classificação</li></ul>
+    </div>
+    
+    <div class="exercise">
+        <h2>Exercício 7: Simulador de Bilheteria</h2>
+        <h3>Descrição</h3>
+        <p>Calcule o valor de um ingresso de cinema com base na idade.</p>
+        <h3>Entradas</h3>
+        <ul><li>Nome</li><li>Idade</li></ul>
+        <h3>Regras</h3>
+        <ul><li>< 12: R$ 10</li><li>12-17: R$ 15</li><li>18-64: R$ 20</li><li>65+: R$ 12</li></ul>
+        <h3>Saída esperada</h3>
+        <ul><li>Nome</li><li>Idade</li><li>Valor do ingresso</li></ul>
+    </div>
+    
+    <div class="exercise">
+        <h2>Exercício 8: Verificador de Triângulo</h2>
+        <h3>Descrição</h3>
+        <p>Verifique se 3 valores podem formar um triângulo.</p>
+        <h3>Entradas</h3>
+        <ul><li>Lado A</li><li>Lado B</li><li>Lado C</li></ul>
+        <h3>Regras</h3>
+        <ul><li>Soma de dois lados deve ser maior que o terceiro, para todos os lados</li></ul>
+        <h3>Saída esperada</h3>
+        <ul><li>Mensagem indicando se é um triângulo válido ou não</li></ul>
+    </div>
+    
+    <div class="exercise">
+        <h2>Exercício 9: Conversor de Temperatura</h2>
+        <h3>Descrição</h3>
+        <p>Converta temperaturas entre Celsius e Fahrenheit.</p>
+        <h3>Entradas</h3>
+        <ul><li>Temperatura</li><li>Unidade de origem (C ou F)</li></ul>
+        <h3>Regras</h3>
+        <ul><li>C para F: (temp × 9/5) + 32</li><li>F para C: (temp - 32) × 5/9</li></ul>
+        <h3>Saída esperada</h3>
+        <ul><li>Temperatura convertida com unidade</li></ul>
+    </div>
+    
+    <div class="exercise">
+        <h2>Exercício 10: Verificador de Placas</h2>
+        <h3>Descrição</h3>
+        <p>Informe o dia de rodízio com base no final da placa.</p>
+        <h3>Entradas</h3>
+        <ul><li>Último dígito da placa (0 a 9)</li></ul>
+        <h3>Regras</h3>
+        <ul><li>1-2: Segunda</li><li>3-4: Terça</li><li>5-6: Quarta</li><li>7-8: Quinta</li><li>9-0: Sexta</li></ul>
+        <h3>Saída esperada</h3>
+        <ul><li>Dia da semana correspondente</li></ul>
+    </div>
+    
+</body>
+</html>
