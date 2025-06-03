@@ -2,4 +2,8 @@
 .settings
 .project
 .classpath
+<<<<<<< HEAD
 bin
+=======
+bin
+>>>>>>> master
